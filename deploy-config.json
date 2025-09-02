@@ -1,0 +1,65 @@
+{
+  "site": {
+    "name": "Orlanobinks",
+    "description": "Site web officiel d'Orlanobinks - Streamer Gaming & Valorant",
+    "url": "https://orlanobinks.com",
+    "author": "Orlanobinks"
+  },
+  "social": {
+    "twitch": {
+      "url": "https://www.twitch.tv/orlanobinks",
+      "channel": "orlanobinks"
+    },
+    "tiktok": {
+      "url": "https://www.tiktok.com/@orlanobinks",
+      "username": "@orlanobinks"
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@orlanobinks",
+      "channel": "@orlanobinks"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/orlanobinks",
+      "username": "@orlanobinks"
+    }
+  },
+  "contact": {
+    "email": "contact@orlanobinks.com",
+    "business": "Collaborations et partenariats"
+  },
+  "deployment": {
+    "github_pages": {
+      "repository": "orlanobinks-website",
+      "branch": "main",
+      "domain": "orlanobinks.com"
+    },
+    "netlify": {
+      "site_name": "orlanobinks-website",
+      "build_command": "",
+      "publish_directory": ".",
+      "environment_variables": {}
+    },
+    "vercel": {
+      "project_name": "orlanobinks-website",
+      "framework": "static",
+      "output_directory": "."
+    }
+  },
+  "analytics": {
+    "google_analytics": "G-XXXXXXXXXX",
+    "google_tag_manager": "GTM-XXXXXXX"
+  },
+  "seo": {
+    "title": "Orlanobinks - Streamer Gaming & Valorant",
+    "description": "Découvrez Orlanobinks, streamer gaming spécialisée dans Valorant. Rejoignez la communauté sur Twitch, TikTok, YouTube et Instagram.",
+    "keywords": "orlanobinks, streamer, gaming, valorant, twitch, tiktok, youtube, instagram",
+    "og_image": "/images/og-image.jpg",
+    "twitter_card": "summary_large_image"
+  },
+  "performance": {
+    "lazy_loading": true,
+    "image_optimization": true,
+    "minification": true,
+    "caching": true
+  }
+}
